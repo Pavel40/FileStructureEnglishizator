@@ -37,7 +37,7 @@ The program can be configured in the config.json file.
     "backup": true,
     "backup_name": "backup",
     "replace_spaces": true,
-    "confirm_required": false
+    "confirm_required": true
 }
 ```
 
