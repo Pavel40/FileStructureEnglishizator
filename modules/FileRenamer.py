@@ -35,7 +35,10 @@ class FileRenamer:
                     new_path = os.path.join(root, new_filename)
                     if path != new_path:
                         print(f"Renaming: {path} -> {new_path}")
-                        os.rename(path, new_path)
+                        try:
+                            os.rename(path, new_path)
+                        except PermissionError:
+                            print(f"Permission error when renaming {path}")
             if not self.recursive:
                 break
 
