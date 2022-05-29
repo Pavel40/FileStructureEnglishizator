@@ -19,7 +19,7 @@ The program can be configured in the config.json file.
 
 + **ignored_names**: An array of strings that should not be part of name of any renamed file or directory. For example: `"ignored_names": ["Folder with spaces and áccénts"]`
 + **files**: Boolean. Rename files or not. Example: `"files": false`
-+ **directories**: Boolean. Rename folders or not. Example: `"directiories: true"`
++ **directories**: Boolean. Rename folders or not. Example: `"directiories": true`
 + **recursive**: Boolean. Rename recursively - walk down the directory tree and change names in all subdirectories. Example: `"recursive": true`
 + **backup**: Boolean. Generate backup or not. Example: `"backup": true`
 + **backup_name**: String. The name of the backup zip archive. Example: `"backup_name": "new_backup"`
